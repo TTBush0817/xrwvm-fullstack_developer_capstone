@@ -1,68 +1,51 @@
 <html>
 <head>
-  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
+<body style="background-color: #fdfdfd;">
 <div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <h2 style="padding-right: 5%; font-family: 'Georgia', serif;">Dealerships</h2>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" style="font-size: larger;" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" style="font-size: larger;" href="/about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a></li>
         </ul>
       </div>
     </div>
   </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+  <div class="card" style="width: 80%; margin: auto; margin-top:5%; border: none; background: transparent;">
+    <div class="banner" name="about-header" style="text-align: center; margin-bottom: 40px;">
+      <h1 style="font-family: 'Georgia', serif; font-weight: normal; color: #222;">About Us</h1>
+      <p style="color: #555; max-width: 700px; margin: 0 auto; line-height: 1.6;">Welcome to Best Cars dealership, home to the finest vehicles in North America. We curate domestic and imported cars with an eye for classic elegance and quality.</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; gap: 25px; justify-content: center; margin:auto">
+      
+      <div class="card" style="width: 30%; border: none; background: transparent;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" style="filter: sepia(0.15) contrast(1.1) brightness(1.1); border-radius: 2px; box-shadow: 2px 4px 10px rgba(0,0,0,0.05);">
+        <div class="card-body" style="text-align: center;">
+          <p class="title" style="font-family: 'Georgia', serif; font-size: 1.2em; margin-bottom: 5px; color: #222;">Elena</p>
+          <p style="color: #888; font-style: italic; font-size: 0.9em; margin-bottom: 10px;">Creative Director</p>
+          <p style="color: #666; font-size: 0.85em;">Capturing the candid moments of your car purchasing journey.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
+      <div class="card" style="width: 30%; border: none; background: transparent;">
+        <img class="card-img-top" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=500&q=80" style="filter: sepia(0.15) contrast(1.1) brightness(1.1); border-radius: 2px; box-shadow: 2px 4px 10px rgba(0,0,0,0.05);">
+        <div class="card-body" style="text-align: center;">
+          <p class="title" style="font-family: 'Georgia', serif; font-size: 1.2em; margin-bottom: 5px; color: #222;">Chloe</p>
+          <p style="color: #888; font-style: italic; font-size: 0.9em; margin-bottom: 10px;">Client Relations</p>
+          <p style="color: #666; font-size: 0.85em;">Ensuring our Western-inspired aesthetic matches your personal vibe.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
+  </div>
 </div>
-
+</body>
 </html>
